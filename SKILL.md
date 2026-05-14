@@ -267,9 +267,9 @@ if __name__ == "__main__":
 
 | Model | Notes |
 |-------|-------|
-| **gpt-5.5** | Default, best quality, supports reference images |
-| **gpt-5.4** | Faster but no reference image support (504 with refs) |
-| **gpt-5.4-mini** | Fastest, can do 1K+refs in ~60s |
+| **gpt-5.5** | Best overall, all sizes + refs |
+| **gpt-5.4** | All sizes work with streaming (~30-120s) |
+| **gpt-5.4-mini** | Fastest for small/low quality (~20-120s) |
 
 ## Size Constraints
 

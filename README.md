@@ -78,11 +78,13 @@ See [SKILL.md](SKILL.md) for full API reference, response parsing, and troublesh
 
 ## Models
 
-| Model | Speed | Reference Images |
-|-------|-------|-----------------|
-| gpt-5.5 | ~30-70s | ✅ |
-| gpt-5.4 | ~30-50s | ❌ (504 with refs) |
-| gpt-5.4-mini | ~20-60s | ✅ (1K only) |
+| Model | Speed | Notes |
+|-------|-------|-------|
+| gpt-5.5 | ~30-70s | Best overall |
+| gpt-5.4 | ~30-120s | All sizes work with streaming |
+| gpt-5.4-mini | ~20-120s | Fastest for small/low quality |
+
+All models support reference images and all sizes when using `stream: true`.
 
 ## License
 
