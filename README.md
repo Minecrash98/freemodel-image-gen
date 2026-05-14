@@ -1,5 +1,5 @@
 # freemodel-image-gen
-
+[中文文档](README_CN.md)
 Generate images via [freemodel.dev](https://api.freemodel.dev) API — no OpenAI key required.
 
 ## Quick Start
@@ -86,7 +86,7 @@ See [SKILL.md](SKILL.md) for full API reference, response parsing, and troublesh
 
 All models support reference images and all sizes when using `stream: true`.
 
-[中文文档](README_CN.md)
+
 
 ## License
 
